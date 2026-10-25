@@ -4,6 +4,7 @@ import java.util.Scanner;
 import model.Account;
 import util.WithdrawRule;
 
+
 import static java.lang.System.out;
 
 public class Main {
@@ -36,6 +37,7 @@ public class Main {
             public boolean allow(Account account, long amount) {
                 return amount > 0 && amount <= account.getBalance();
             }
+            
         };
 
         out.print("Enter withdrawal amount: ");

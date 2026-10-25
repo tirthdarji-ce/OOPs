@@ -1,5 +1,10 @@
 package model;
 
+import model.InterestBearing;
+
+import model.Premium;
+import model.Transactable;
+
 public class Account implements Transactable, InterestBearing, Premium {
     private final String holderName;
     private long balance;
