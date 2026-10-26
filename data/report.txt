@@ -1,0 +1,4 @@
+transactions.log | size=78 | modified=2026-10-26T09:31:44.033829499Z
+Total deposits: 1000
+Total withdrawals: 400
+Net change: 600
